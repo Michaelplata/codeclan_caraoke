@@ -1,13 +1,14 @@
 class Song:
-    def __init__(self, songs):
-        self.songs = [
-            {
-                "title": [],
-                "artist": []
-            }
-        ]
+    def __init__(self, name):
+        self.name = name
+        
     
-    def create_song(self, title, artist):
-        self.songs["title"].append(title)
-        self.songs["artist"].append(artist)
-        return self.songs
+    
+        
+          
+    
+
+        
+        
+        
+    
